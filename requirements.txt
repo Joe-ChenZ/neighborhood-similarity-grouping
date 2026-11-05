@@ -1,0 +1,10 @@
+# Light local deps (editing notebooks, small checks). Heavy work runs on Kaggle/Colab/Modal.
+# Remote-only installs (torch, faiss-gpu, sentence-transformers) are pip-installed inside the notebooks.
+numpy
+pandas
+pyarrow
+geopandas
+shapely
+osmnx
+faiss-cpu
+jupyter

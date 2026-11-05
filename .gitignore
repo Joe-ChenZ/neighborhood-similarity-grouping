@@ -1,0 +1,33 @@
+# Data and artifacts (live on Kaggle / HF Hub / Drive, not in git)
+data/raw/*
+data/interim/*
+outputs/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!outputs/.gitkeep
+*.parquet
+*.npy
+*.faiss
+*.pt
+*.ckpt
+*.tar
+*.tar.gz
+*.json.gz
+*.pbf
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
