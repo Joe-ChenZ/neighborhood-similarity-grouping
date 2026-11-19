@@ -1,0 +1,6 @@
+# Store and check out text files with LF on every machine (Windows included), so tools that
+# write CRLF can't churn whole files in diffs. Git still detects binaries by content.
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.parquet binary
+*.geojson text eol=lf
